@@ -1,0 +1,21 @@
+{
+  "name": "destruct",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "jest  --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5"
+  },
+  "dependencies": {
+    "core-js": "^3.34.0",
+    "jest": "^29.7.0"
+  }
+}
